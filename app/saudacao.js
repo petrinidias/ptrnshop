@@ -14,10 +14,10 @@ export default function Saudacao() {
     saudacao = "Boa noite"
   }
 
-
     return (
         <>
             {saudacao}
         </>
     )}
 
+setInterval(Saudacao, 60000)
